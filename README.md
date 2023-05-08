@@ -5,7 +5,7 @@
 - opengraph-image not working https://github.com/vercel/next.js/issues/48162
 - layout resets between navigations if used inside a [slug] https://github.com/vercel/next.js/issues/48082
 - pages don't work after naviagting to a not found page https://github.com/vercel/next.js/issues/47964
-- 
+- when deployed on Vercel slug returns ['index'] instead of [] https://github.com/vercel/next.js/issues/48088
 
 
 ## Search params
