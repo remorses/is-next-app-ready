@@ -8,7 +8,7 @@
 -   Serving stale data https://github.com/vercel/next.js/issues/42991
 -   layout resets between navigations if used inside a [slug] (closed but still relevant to me) https://github.com/vercel/next.js/issues/48082
 -   issues after navigating to a not found page https://github.com/vercel/next.js/issues/47964
--   when deployed on Vercel slug returns ['index'] instead of [] https://github.com/vercel/next.js/issues/48088
+-   when deployed on Vercel [...slug] returns ['index'] instead of [] https://github.com/vercel/next.js/issues/48088
 
 ## Search params
 
