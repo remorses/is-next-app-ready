@@ -20,10 +20,6 @@
 -   revalidatePath not working https://github.com/vercel/next.js/issues/49387
 -   revalidateTag https://github.com/vercel/next.js/issues/49368
 
-## cookies, headers
-
--   cookies not working in routes https://github.com/vercel/next.js/issues/49022
--
 
 ## server actions
 
