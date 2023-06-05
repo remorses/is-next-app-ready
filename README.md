@@ -1,14 +1,12 @@
 -   very high memory usage https://github.com/vercel/next.js/issues/46756
 -   all `redirect()` calls are treated as a permanent redirects by Google: https://github.com/vercel/next.js/issues/49148#issuecomment-1545901498
--   --cannot use `cookies()` and `headers()` inside node_modules, this forses libraries to use questionable interfaces like in supabase case where you have to pass cookies function manually: https://supabase.com/docs/guides/auth/auth-helpers/nextjs#code-exchange-route --
 -   https://github.com/vercel/next.js/issues/49087
 -   https://github.com/vercel/next.js/issues/43722
 
 ## Dynamic params (`[slug]`)
 
--   --opengraph-image not working https://github.com/vercel/next.js/issues/48162--
 -   Serving stale data https://github.com/vercel/next.js/issues/42991
--   --layout resets between navigations if used inside a [slug] (closed but still relevant) https://github.com/vercel/next.js/issues/48082--
+-   layout resets between navigations if used inside a [slug] (closed but still relevant to me) https://github.com/vercel/next.js/issues/48082
 -   issues after navigating to a not found page https://github.com/vercel/next.js/issues/47964
 -   when deployed on Vercel slug returns ['index'] instead of [] https://github.com/vercel/next.js/issues/48088
 
