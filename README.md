@@ -1,6 +1,8 @@
 -   very high memory usage https://github.com/vercel/next.js/issues/46756
 -   all `redirect()` calls are treated as a permanent redirects by Google: https://github.com/vercel/next.js/issues/49148#issuecomment-1545901498
 -   --cannot use `cookies()` and `headers()` inside node_modules, this forses libraries to use questionable interfaces like in supabase case where you have to pass cookies function manually: https://supabase.com/docs/guides/auth/auth-helpers/nextjs#code-exchange-route--
+-   https://github.com/vercel/next.js/issues/49087
+-   https://github.com/vercel/next.js/issues/43722
 
 ## Dynamic params (`[slug]`)
 
